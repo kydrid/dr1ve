@@ -12,6 +12,7 @@ fastapi = "^0.95.2"
 python-box = "^7.0.1"
 tomli = "^2.0.1"
 uvicorn = "^0.22.0"
+passlib = "^1.7.4"
 
 
 [tool.poetry.group.dev.dependencies]
