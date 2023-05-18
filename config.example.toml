@@ -1,0 +1,14 @@
+[app]
+debug = false # the bool to set the FastAPI debug parameter and uvicorn.run reload parameter to
+host = "0.0.0.0" # change this to 127.0.0.1 to not expose it to the internet
+port = 8080
+
+[routes]
+path = "./routes"
+exclude = "" # excluded routes, seperated by commas (ex: "api/,api/accounts")
+
+[logging]
+level = "INFO" # any valid attribute of the logging module (DEBUG, INFO, FATAL, ERROR, CRITICAL, WARN, WARNING)
+
+[logging.routes]
+level = "INFO" # any valid attribute of the logging module (DEBUG, INFO, FATAL, ERROR, CRITICAL, WARN, WARNING)
